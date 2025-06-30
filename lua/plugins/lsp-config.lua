@@ -29,10 +29,10 @@ return {
         capabilities = capabilities
       }) -- go
       lspconfig.jdtls.setup({
-        apabilities = capabilities
+        capabilities = capabilities
       }) -- java
       lspconfig.tsserver.setup({
-        apabilities = capabilities
+        capabilities = capabilities
       })  -- typescript
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
